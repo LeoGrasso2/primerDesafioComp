@@ -6,7 +6,7 @@ for(let i=0; i<cant; i++){
     let nombre= prompt('Ingrese el nombre del alumno');
     let nota= prompt('Ingrese su nota.');
     Number.parseInt(nota, 10);
-    if(nota>10){
+    if(nota>10 || nota<1){
         alert('Ingrese un numero no mayor a 10.')
         i--;
     }
